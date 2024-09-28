@@ -18,8 +18,8 @@ def test_http_get():
 def test_tcp_stream(video_path):
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
-        client_socket.connect(('localhost', 10))
-        print("Connected to TCP server at localhost:1")
+        client_socket.connect(('localhost', 16))
+        print("Connected to TCP server at localhost:16")
 
         cap = cv2.VideoCapture(video_path)
         if not cap.isOpened():

@@ -15,8 +15,8 @@ def recvall(sock, n):
     return data
 
 def main():
-    HOST = 'localhost'  # Server's IP address (localhost)
-    PORT = 10           # Server's port
+    HOST = '6.tcp.ngrok.io'  # Server's IP address (localhost)
+    PORT = 12           # Server's port
 
     # Create a TCP/IP socket
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
