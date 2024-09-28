@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b8678fad557e14eab0780f7d365452, type: 3}
+  m_Name: ZHandGesture_l
+  m_EditorClassIdentifier: 
+  displayName: Z
+  handPoseList:
+  - {fileID: -6202488916469461938, guid: 8b5c96024f394bf4ca59212d1f33ed3d, type: 3}
+  - {fileID: -6202488916469461938, guid: 08f8a8ad1acbd9c488d7e71a3103cc25, type: 3}
+  - {fileID: -6202488916469461938, guid: 3826bc1c20fb66b4d8d53e236dd45ac8, type: 3}
+  - {fileID: -6202488916469461938, guid: de230d1721971164a9b4d3bab1c45920, type: 3}
+  lastPoseHoldTime: 0.1
+  OnEnter:
+    m_PersistentCalls:
+      m_Calls: []

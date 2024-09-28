@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b8678fad557e14eab0780f7d365452, type: 3}
+  m_Name: BurnHandGesture_l
+  m_EditorClassIdentifier: 
+  displayName: Burn Left
+  handPoseList:
+  - {fileID: -6202488916469461938, guid: fc32ddc3e3058504c8d1be6f8c743fba, type: 3}
+  - {fileID: -6202488916469461938, guid: ee9c9b9a5e34b804fa5298c763d5564c, type: 3}
+  lastPoseHoldTime: 0
+  OnEnter:
+    m_PersistentCalls:
+      m_Calls: []
