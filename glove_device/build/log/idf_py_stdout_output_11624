@@ -1,0 +1,29 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D "C:\Users\August\Desktop\Shellhacks 2024\esp-idf\examples\bluetooth\bluedroid\classic_bt\bt_hid_mouse_device\build\bootloader\esp-idf\esptool_py" && C:\Users\August\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/August/esp/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 "C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/build/bootloader/bootloader.bin""
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c: In function 'mouse_move_task':
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c:175:16: warning: unused variable 'step' [-Wunused-variable]
+  175 |         int8_t step = 10;
+      |                ^~~~
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c: In function 'esp_spp_cb':
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c:525:17: warning: unused variable 'TAG' [-Wunused-variable]
+  525 |     const char *TAG = "esp_bt_gap_cb";
+      |                 ^~~
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c:534:16: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  534 |             if (param->data_ind.len >= 5)
+      |                ^
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c:538:9: note: here
+  538 |         default:
+      |         ^~~~~~~
+[3/7] Linking C static library esp-idf\main\libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable bt_hid_mouse_device.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/build/bt_hid_mouse_device.bin
+[7/7] cmd.exe /C "cd /D "C:\Users\August\Desktop\Shellhacks 2024\esp-idf\examples\bluetooth\bluedroid\classic_bt\bt_hid_mouse_device\build\esp-idf\esptool_py" && C:\Users\August\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/August/esp/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app "C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/build/partition_table/partition-table.bin" "C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/build/bt_hid_mouse_device.bin""
+bt_hid_mouse_device.bin binary size 0xdfbf0 bytes. Smallest app partition is 0x100000 bytes. 0x20410 bytes (13%) free.
