@@ -1,0 +1,82 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D "C:\Users\August\Desktop\Shellhacks 2024\esp-idf\examples\bluetooth\bluedroid\classic_bt\bt_hid_mouse_device\build\bootloader\esp-idf\esptool_py" && C:\Users\August\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/August/esp/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 "C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/build/bootloader/bootloader.bin""
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c: In function 'mouse_move_task':
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c:161:16: warning: unused variable 'step' [-Wunused-variable]
+  161 |         int8_t step = 10;
+      |                ^~~~
+[3/8] Linking C static library esp-idf\main\libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable bt_hid_mouse_device.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/build/bt_hid_mouse_device.bin
+[7/8] cmd.exe /C "cd /D "C:\Users\August\Desktop\Shellhacks 2024\esp-idf\examples\bluetooth\bluedroid\classic_bt\bt_hid_mouse_device\build\esp-idf\esptool_py" && C:\Users\August\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/August/esp/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app "C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/build/partition_table/partition-table.bin" "C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/build/bt_hid_mouse_device.bin""
+bt_hid_mouse_device.bin binary size 0xd14a0 bytes. Smallest app partition is 0x100000 bytes. 0x2eb60 bytes (18%) free.
+[7/8] cmd.exe /C "cd /D C:\Users\August\esp\v5.3\esp-idf\components\esptool_py && C:\Users\August\.espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/August/esp/v5.3/esp-idf -D SERIAL_TOOL=C:/Users/August/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Users/August/esp/v5.3/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D "WORKING_DIRECTORY=C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/build" -P C:/Users/August/esp/v5.3/esp-idf/components/esptool_py/run_serial_tool.cmakesptool.py --chip esp32 -p COM10 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 bt_hid_mouse_device.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.dev5
+Serial port COM10
+Connecting.....
+Chip is ESP32-D0WDQ6-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: a0:dd:6c:77:c6:90
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000e1fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 26752 bytes to 16356...
+Writing at 0x00001000... (100 %)
+Wrote 26752 bytes (16356 compressed) at 0x00001000 in 0.8 seconds (effective 280.4 kbit/s)...
+Hash of data verified.
+Compressed 857248 bytes to 489596...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001ef60... (6 %)
+Writing at 0x0002e28c... (10 %)
+Writing at 0x0003a448... (13 %)
+Writing at 0x000409f1... (16 %)
+Writing at 0x0004659c... (20 %)
+Writing at 0x0004c5b0... (23 %)
+Writing at 0x000523a7... (26 %)
+Writing at 0x00057e7f... (30 %)
+Writing at 0x0005d86f... (33 %)
+Writing at 0x000632bc... (36 %)
+Writing at 0x0006a0b6... (40 %)
+Writing at 0x000701c4... (43 %)
+Writing at 0x000763b5... (46 %)
+Writing at 0x0007c8a3... (50 %)
+Writing at 0x00082b04... (53 %)
+Writing at 0x00088e1f... (56 %)
+Writing at 0x0008ef17... (60 %)
+Writing at 0x00094e19... (63 %)
+Writing at 0x0009adc1... (66 %)
+Writing at 0x000a0b24... (70 %)
+Writing at 0x000a6632... (73 %)
+Writing at 0x000ac609... (76 %)
+Writing at 0x000b23ec... (80 %)
+Writing at 0x000b82d0... (83 %)
+Writing at 0x000bfd2b... (86 %)
+Writing at 0x000ca15d... (90 %)
+Writing at 0x000d028c... (93 %)
+Writing at 0x000d5a12... (96 %)
+Writing at 0x000dba77... (100 %)
+Wrote 857248 bytes (489596 compressed) at 0x00010000 in 11.8 seconds (effective 580.8 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 448.9 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+e"

@@ -1,0 +1,95 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D "C:\Users\August\Desktop\Shellhacks 2024\esp-idf\examples\bluetooth\bluedroid\classic_bt\bt_hid_mouse_device\build\bootloader\esp-idf\esptool_py" && C:\Users\August\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/August/esp/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 "C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/build/bootloader/bootloader.bin""
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c: In function 'mouse_move_task':
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c:175:16: warning: unused variable 'step' [-Wunused-variable]
+  175 |         int8_t step = 10;
+      |                ^~~~
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c: In function 'esp_spp_cb':
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c:525:17: warning: unused variable 'TAG' [-Wunused-variable]
+  525 |     const char *TAG = "esp_bt_gap_cb";
+      |                 ^~~
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c:534:16: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  534 |             if (param->data_ind.len >= 5)
+      |                ^
+C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/main/main.c:538:9: note: here
+  538 |         default:
+      |         ^~~~~~~
+[3/8] Linking C static library esp-idf\main\libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable bt_hid_mouse_device.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/build/bt_hid_mouse_device.bin
+[7/8] cmd.exe /C "cd /D "C:\Users\August\Desktop\Shellhacks 2024\esp-idf\examples\bluetooth\bluedroid\classic_bt\bt_hid_mouse_device\build\esp-idf\esptool_py" && C:\Users\August\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/August/esp/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app "C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/build/partition_table/partition-table.bin" "C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/bt_hid_mouse_device/build/bt_hid_mouse_device.bin""
+bt_hid_mouse_device.bin binary size 0xe1800 bytes. Smallest app partition is 0x100000 bytes. 0x1e800 bytes (12%) free.
+[7/8] cmd.exe /C "cd /D C:\Users\August\esp\v5.3\esp-idf\components\esptool_py && C:\Users\August\.espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/August/esp/v5.3/esp-idf -D SERIAL_TOOL=C:/Users/August/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Users/August/esp/v5.3/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D "WORKING_DIRECTORY=C:/Users/August/Desktop/Shellhacks 2024/esp-idf/examples/bluetooth/bluedroid/classic_bt/esptool.py --chip esp32 -p COM10 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 bt_hid_mouse_device.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.dev5
+Serial port COM10
+Connecting.....
+Chip is ESP32-D0WDQ6-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: a0:dd:6c:77:c6:90
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000f1fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 26752 bytes to 16356...
+Writing at 0x00001000... (100 %)
+Wrote 26752 bytes (16356 compressed) at 0x00001000 in 0.8 seconds (effective 284.2 kbit/s)...
+Hash of data verified.
+Compressed 923648 bytes to 526581...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001ef72... (6 %)
+Writing at 0x0002f558... (9 %)
+Writing at 0x000396a8... (12 %)
+Writing at 0x0004350c... (15 %)
+Writing at 0x00048f7b... (18 %)
+Writing at 0x0004eb48... (21 %)
+Writing at 0x0005488a... (24 %)
+Writing at 0x0005a364... (27 %)
+Writing at 0x0005fdf4... (30 %)
+Writing at 0x000659ff... (33 %)
+Writing at 0x0006c7d7... (36 %)
+Writing at 0x00072906... (39 %)
+Writing at 0x00078a1f... (42 %)
+Writing at 0x0007ef65... (45 %)
+Writing at 0x0008505f... (48 %)
+Writing at 0x0008b494... (51 %)
+Writing at 0x0009179f... (54 %)
+Writing at 0x00097844... (57 %)
+Writing at 0x0009d848... (60 %)
+Writing at 0x000a3a38... (63 %)
+Writing at 0x000a988f... (66 %)
+Writing at 0x000af2ec... (69 %)
+Writing at 0x000b533a... (72 %)
+Writing at 0x000bb1ae... (75 %)
+Writing at 0x000c1083... (78 %)
+Writing at 0x000c7ba1... (81 %)
+Writing at 0x000d15aa... (84 %)
+Writing at 0x000d8fb3... (87 %)
+Writing at 0x000decee... (90 %)
+Writing at 0x000e45f8... (93 %)
+Writing at 0x000ea318... (96 %)
+Writing at 0x000f082f... (100 %)
+Wrote 923648 bytes (526581 compressed) at 0x00010000 in 12.7 seconds (effective 583.7 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 441.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+bt_hid_mouse_device/build" -P C:/Users/August/esp/v5.3/esp-idf/components/esptool_py/run_serial_tool.cmake"
