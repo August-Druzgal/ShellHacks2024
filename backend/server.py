@@ -118,6 +118,10 @@ def image_processing_loop():
                 y_max = int(y_max * h)
                 label_name = model.names[int(label.item())]
 
+                # Compute width and height
+                width = x_max - x_min
+                height = y_max - y_min
+
                 # Draw bounding box
                 cv2.rectangle(frame, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)
 
@@ -131,11 +135,13 @@ def image_processing_loop():
                 objects.append({
                     "label": label_name,
                     "x": x_center,
-                    "y": y_center
+                    "y": y_center,
+                    "width": width,   # Include width
+                    "height": height  # Include height
                 })
 
-                # Log each detected object
-                logging.info(f'Detected {label_name} at X: {x_center}, Y: {y_center}')
+                # Log each detected object, including width and height
+                logging.info(f'Detected {label_name} at X: {x_center}, Y: {y_center}, Width: {width}, Height: {height}')
 
             logging.debug("Object detection completed.")
 

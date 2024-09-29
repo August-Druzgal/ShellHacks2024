@@ -4,6 +4,7 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Text;
 using System.Net;
+using System.Collections.Generic;
 
 public class TcpClientUnity : MonoBehaviour
 {
@@ -44,7 +45,22 @@ public class TcpClientUnity : MonoBehaviour
         {
             // Process the received data here
             Debug.Log("Received: " + dataToProcess);
-            // For example, parse JSON and update game objects
+            // Parse JSON and update game objects
+            try
+            {
+                DetectedObjects detectedObjects = JsonUtility.FromJson<DetectedObjects>(dataToProcess);
+
+                foreach (var obj in detectedObjects.objects)
+                {
+                    Debug.Log($"Label: {obj.label}, X: {obj.x}, Y: {obj.y}, Width: {obj.width}, Height: {obj.height}");
+                    // Use obj.width and obj.height as needed
+                    // For example, you might update the size of a game object
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError("Failed to parse JSON data: " + ex.Message);
+            }
         }
     }
 
@@ -122,4 +138,21 @@ public class TcpClientUnity : MonoBehaviour
         if (clientThread != null)
             clientThread.Abort();
     }
+}
+
+// Define classes to match the JSON structure
+[Serializable]
+public class DetectedObjects
+{
+    public List<DetectedObject> objects;
+}
+
+[Serializable]
+public class DetectedObject
+{
+    public string label;
+    public int x;
+    public int y;
+    public int width;  // Include width
+    public int height; // Include height
 }
