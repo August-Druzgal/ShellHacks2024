@@ -1,15 +1,16 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.PlasticSCM.Editor.WebApi;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class SpawnLetterImages : MonoBehaviour
 {
+    public AudioHolder audioHolder;
     public GameObject imagePrefab; // Prefab for the letter images
     public Transform parentTransform; // Parent transform to hold the images
     public float padding = 10f; // Padding between images
-
     // Public GameObject fields for each letter
     public Texture2D A;
     public Texture2D B;
@@ -46,6 +47,8 @@ public class SpawnLetterImages : MonoBehaviour
 
     public static bool used = false;
 
+    private GameObject boxMenu;
+
     void Awake()
     {
         // Initialize the dictionary with letter to Texture2D mappings
@@ -77,7 +80,15 @@ public class SpawnLetterImages : MonoBehaviour
         letterTextures['Z'] = Z;
     }
 
-    public void spawnImages(string word, GameObject parent)
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            skip();
+        }
+    }
+
+    public void spawnImages(string word, GameObject parent, GameObject box)
     {
         // Check if imagePrefab and parentTransform are assigned
         if (imagePrefab == null)
@@ -99,14 +110,15 @@ public class SpawnLetterImages : MonoBehaviour
         }
 
         float totalWidth = 0f;
-        List<GameObject> imageObjects = new List<GameObject>();
 
         for (int i = 0; i < word.Length; i++)
         {
-            charQueue.Enqueue(word[i]);
+            charQueue.Enqueue(Char.ToUpper(word[i]));
         }
+
         float cwidth = 0.25f;
         float coffset = (word.Length * cwidth + parent.transform.localScale.x) / 2 - cwidth;
+        this.boxMenu = box;
         // Instantiate images for each letter
         foreach (char c in word.ToUpper())
         {
@@ -116,14 +128,13 @@ public class SpawnLetterImages : MonoBehaviour
                 GameObject imageObject = Instantiate(targetPrefab, parent.transform);
                 imageObject.transform.parent = parent.transform;
                 imageObject.transform.localScale = new Vector3(cwidth, cwidth, 0.15f);
-                imageObject.transform.localPosition = new Vector3(coffset, 0.62f, 0f);
+                imageObject.transform.localPosition = new Vector3(coffset, 0.3f, 0f);
                 coffset -= cwidth;
-                GameObject blankDiskComponent = imageObject;// Ask CJ what he wants here
                 //blankDiskComponent.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-                imageQueue.Enqueue(blankDiskComponent);
+                imageQueue.Enqueue(imageObject);
 
                 // Check if GameObject component is assigned
-                if (blankDiskComponent == null)
+                if (imageObject == null)
                 {
                     Debug.LogError("GameObject component is missing on the instantiated prefab.");
                     Destroy(imageObject);
@@ -139,7 +150,6 @@ public class SpawnLetterImages : MonoBehaviour
                 }
 
                 // blankDiskComponent.texture = letterTextures[c];
-                imageObjects.Add(imageObject);
 
                 // Calculate total width
                 totalWidth += cwidth + padding;
@@ -164,31 +174,53 @@ public class SpawnLetterImages : MonoBehaviour
 
     public bool removeLetter(char letter)
     {
-        if (charQueue.Count > 0 && charQueue.Peek() == letter)
+        // Debug.Log("Removing letter: " + letter + " from queue " + charQueue.Count + " " + charQueue.Peek());
+        if (charQueue.Count > 0 && imageQueue.Count > 0 && Char.ToUpper(charQueue.Peek()) == Char.ToUpper(letter))
         {
+            Debug.Log("Correct letter removed");
+            Debug.Log("Queue count: " + charQueue.Count);
             charQueue.Dequeue();
             GameObject image = imageQueue.Dequeue();
-            StartCoroutine(FadeToGreenAndDestroy(image));
+
+            // Ensure the image is an instance and not a prefab asset
+            if (image != null && image.scene.IsValid())
+            {
+                // Disable the MeshRenderer of the image being removed
+                if (image.TryGetComponent<MeshRenderer>(out var meshRenderer))
+                {
+                    meshRenderer.enabled = false;
+                }
+
+                StartCoroutine(FadeToGreenAndDestroy(image));
+            }
+            else
+            {
+                Debug.LogError("The image is not a valid instance.");
+            }
+
+            if (charQueue.Count == 0 && imageQueue.Count == 0)
+            {
+                Debug.Log("Finished spelling");
+                FrontendDebugger.finishedSpelling = true;
+            }
+
             return true;
         }
 
-        StartCoroutine(FadeToRed(imageQueue.Peek()));
+        if (imageQueue.Count > 0)
+        {
+            StartCoroutine(FadeToRed(imageQueue.Peek()));
+        }
+
         return false;
     }
 
 
     private IEnumerator FadeToGreenAndDestroy(GameObject image)
     {
-        if (SpawnLetterImages.used)
-        {
-            yield break;
-        }
-
-        SpawnLetterImages.used = true;
+        audioHolder.playAudio(0);
         float duration = 1.0f; // Duration in seconds
         float elapsedTime = 0.0f;
-        Color initialColor = Color.white;
-        Color targetColor = Color.green;
 
         while (elapsedTime < duration)
         {
@@ -198,22 +230,14 @@ public class SpawnLetterImages : MonoBehaviour
         }
 
         // image.color = targetColor; // Ensure the final color is set to green
-        Destroy(image.gameObject);
-        SpawnLetterImages.used = false;
+        Destroy(image);
     }
 
     private IEnumerator FadeToRed(GameObject image)
     {
-        if (SpawnLetterImages.used)
-        {
-            yield break;
-        }
-
-        SpawnLetterImages.used = true;
+        audioHolder.playAudio(1);
         float duration = 1.0f; // Duration in seconds
         float elapsedTime = 0.0f;
-        // Color initialColor = image.color;
-        Color targetColor = Color.red;
 
         while (elapsedTime < duration)
         {
@@ -230,8 +254,13 @@ public class SpawnLetterImages : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return null;
         }
+    }
 
-        // image.color = Color.white;
-        SpawnLetterImages.used = false;
+    public void skip()
+    {
+        if (charQueue.Count > 0 && imageQueue.Count > 0)
+        {
+            removeLetter(charQueue.Peek());
+        }
     }
 }

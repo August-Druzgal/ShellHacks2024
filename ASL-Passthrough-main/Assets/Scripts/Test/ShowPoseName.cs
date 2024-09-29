@@ -58,6 +58,7 @@ public class ShowPoseName : MonoBehaviour
 
     public void OnEnter(Gesture gesture)
     {
+        Debug.Log("Hello!");
         textMesh.text = gesture.GetDisplayName();
         spawnLetterImages.removeLetter(gesture.GetDisplayName()[0]);
         currentTime = displayTime;
