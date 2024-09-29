@@ -138,7 +138,6 @@ GameObject:
   m_Component:
   - component: {fileID: 58090608}
   - component: {fileID: 58090607}
-  - component: {fileID: 58090609}
   m_Layer: 0
   m_Name: GestureTracker
   m_TagString: Untagged
@@ -181,32 +180,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &58090609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 58090606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a94894b3a4c7024490d13e1d38f52d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spells:
-  - gestures:
-    - {fileID: 11400000, guid: 12994baf4edf0d84cb1a83303ded153c, type: 2}
-    reversedGestures: []
-    effect: {fileID: 4247319754249842242, guid: b82cde36d31074b488cd925946499e14, type: 3}
-  - gestures:
-    - {fileID: 11400000, guid: 8b1757984a88af241aefb4e69141fcaa, type: 2}
-    - {fileID: 11400000, guid: e51deb8408a8b4e4b820600e4cefecaf, type: 2}
-    - {fileID: 11400000, guid: ece1c282075b1ec48b0ae3c2dcf978b6, type: 2}
-    reversedGestures: []
-    effect: {fileID: 4247319754249842242, guid: b82cde36d31074b488cd925946499e14, type: 3}
-  sameSignDelay: 1
-  maxTimeBetweenGestures: 1
-  spellSpawnPoint: {fileID: 668911362}
 --- !u!4 &89204951 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4001605307124674, guid: e201a24a09e942042b93390d0444d728, type: 3}
@@ -1380,7 +1353,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &877941300
 MeshRenderer:
   m_ObjectHideFlags: 0

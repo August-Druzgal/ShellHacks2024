@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -41,7 +42,9 @@ public class SpawnLetterImages : MonoBehaviour
 
     private Queue<char> charQueue = new Queue<char>();
 
-    private Queue<RawImage> imageStack = new Queue<RawImage>();
+    private Queue<RawImage> imageQueue = new Queue<RawImage>();
+
+    public static bool used = false;
 
     void Awake()
     {
@@ -111,6 +114,7 @@ public class SpawnLetterImages : MonoBehaviour
                 GameObject imageObject = Instantiate(imagePrefab, parentTransform);
                 RawImage rawImageComponent = imageObject.GetComponent<RawImage>();
                 rawImageComponent.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+                imageQueue.Enqueue(rawImageComponent);
 
                 // Check if RawImage component is assigned
                 if (rawImageComponent == null)
@@ -157,12 +161,59 @@ public class SpawnLetterImages : MonoBehaviour
         if (charQueue.Count > 0 && charQueue.Peek() == letter)
         {
             charQueue.Dequeue();
-            RawImage image = imageStack.Dequeue();
-            image.color = Color.green;
-            Destroy(image.gameObject);
-            return true;    
+            RawImage image = imageQueue.Dequeue();
+            StartCoroutine(FadeToGreenAndDestroy(image));
+            return true;
         }
-        
+
+        StartCoroutine(FadeToRed(imageQueue.Peek()));
         return false;
+    }
+
+
+    private IEnumerator FadeToGreenAndDestroy(RawImage image)
+    {
+        float duration = 1.0f; // Duration in seconds
+        float elapsedTime = 0.0f;
+        Color initialColor = image.color;
+        Color targetColor = Color.green;
+
+        while (elapsedTime < duration)
+        {
+            image.color = Color.Lerp(initialColor, targetColor, elapsedTime / duration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        image.color = targetColor; // Ensure the final color is set to green
+        Destroy(image.gameObject);
+    }
+
+    private IEnumerator FadeToRed(RawImage image)
+    {
+        SpawnLetterImages.used = true;
+        float duration = 1.0f; // Duration in seconds
+        float elapsedTime = 0.0f;
+        Color initialColor = image.color;
+        Color targetColor = Color.red;
+
+        while (elapsedTime < duration)
+        {
+            image.color = Color.Lerp(initialColor, targetColor, elapsedTime / duration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        image.color = targetColor; // Ensure the final color is set back to the initial color
+        elapsedTime = 0.0f; // Reset the elapsed time
+
+        while (elapsedTime < duration)
+        {
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        image.color = Color.white; 
+        SpawnLetterImages.used = false;
     }
 }

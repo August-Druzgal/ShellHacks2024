@@ -57,13 +57,13 @@ public class HandPose : MonoBehaviour
     [SerializeField] bool ignoreWristRotation = false;
 
     //max angle away from target angle on each joint for pose to accept
-    [SerializeField] float toleranceAngle = 20f;
+    [SerializeField] float toleranceAngle = 70f;// 20f;
 
     //Whether or not position of hand matters for the sign
     [SerializeField] bool ignoreWristPosition = false;
 
     //max distance from target wrist position for pose to accept
-    [SerializeField] float toleranceRadius = .1f;
+    [SerializeField] float toleranceRadius = 1.3f;//.1f;
 
     [Header("Debug Values")]
 
