@@ -1,0 +1,1866 @@
+[0;33mW (43041) BT_HCI: hcif conn complete: hdl 0x80, st 0x0[0m
+[0;32mI (43041) esp_bt_gap_cb: event: 16[0m
+[0;32mI (43591) esp_bt_gap_cb: authentication success: DESKTOP-3T2FKOG[0m
+[0;32mI (43591) esp_bt_gap_cb: 14 85 7f 27 dc a0 [0m
+[0;32mI (43611) esp_bt_gap_cb: event: 21[0m
+[0;33mW (43801) BT_HIDD: hidd_l2cif_config_cfm: config failed, retry[0m
+[0;33mW (43821) BT_APPL: new conn_srvc id:20, app_id:1[0m
+[0;32mI (43821) esp_bt_hidd_cb: connected to 14:85:7f:27:dc:a0[0m
+[0;32mI (43821) mouse_move_task: starting[0m
+[0;32mI (43821) esp_bt_hidd_cb: making self non-discoverable and non-connectable.[0m
+[0;33mW (43841) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(10 18)[0m
+[0;33mW (43841) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 18, status 0x0[0m
+[0;32mI (43851) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (43851) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;32mI (44321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (44821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (45321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (45821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (46321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (46821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (47321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (47821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (48321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (48821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (49321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (49821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (50321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (50821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (51321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (51821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (52321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (52821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (53321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (53821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (54321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (54821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (55321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (55821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (56321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (56821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (57321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (57821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (58321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (58821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (59321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (59821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (60321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (60821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (61001) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (61011) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (61021) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (61131) BT_APPL: new conn_srvc id:26, app_id:255[0m
+[0;33mW (61141) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(30 54)[0m
+Event: 34
+[0;33mW (61151) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 54, status 0x0[0m
+[0;32mI (61161) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;33mW (61211) BT_RFCOMM: port_rfc_closed RFCOMM connection in server:1 state 2 closed: Closed (res: 19)[0m
+Event: 27
+[0;32mI (61321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (61341) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (61341) BT_RFCOMM: rfc_find_lcid_mcb LCID reused LCID:0x43 current:0x0[0m
+[0;33mW (61341) BT_RFCOMM: RFCOMM_DisconnectInd LCID:0x43[0m
+[0;33mW (61401) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (61411) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (61821) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(10 18)[0m
+[0;32mI (61821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (61831) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 18, status 0x0[0m
+[0;32mI (61831) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;32mI (62321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (62821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (63321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (63821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (64321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (64821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (65321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (65821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (66321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (66821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (67321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (67821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (68321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (68821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (69321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (69821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (70321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (70821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (71321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (71821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (72321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (72821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (73321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (73821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (74321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (74821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (75321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (75821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (76321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (76821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (77321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (77821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (78321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (78821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (79321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (79821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (80321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (80821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (81321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (81821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (82321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (82821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (83321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (83821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (84321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (84821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (85321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (85821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (86321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (86821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (87321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (87821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (88321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (88821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (89321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (89821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (90321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (90821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (91321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (91821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (92321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (92821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (93321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (93821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (94321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (94821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (95321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (95821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (96321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (96821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (97321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (97821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (98321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (98821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (99321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (99821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (100321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (100821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (101321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (101821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (102321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (102821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (103321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (103821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (104321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (104821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (105321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (105821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (106321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (106821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (107321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (107821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (108321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (108821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (109321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (109821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (110321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (110821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (111321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (111821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (112321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (112821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (113321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (113821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (114321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (114821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (115321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (115821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (116321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (116821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (117321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (117821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (118321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (118821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (119321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (119821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (120321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (120821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (121321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (121821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (122321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (122821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (123321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (123821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (124321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (124821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (125321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (125821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (126321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (126821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (127321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (127821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (128321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (128821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (129321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (129821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (130321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (130821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (131321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (131821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (132321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (132821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (133321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (133821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (134321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (134821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (135321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (135821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (136321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (136821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (137321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (137821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (138321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (138821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (139321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (139821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (140321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (140821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (141321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (141821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (142321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (142821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (143321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (144821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (145321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (145821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (146321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (146821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (147321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (147591) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (147611) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (147611) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (147691) BT_APPL: new conn_srvc id:26, app_id:255[0m
+[0;33mW (147691) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(30 54)[0m
+Event: 34
+[0;33mW (147701) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 54, status 0x0[0m
+[0;32mI (147701) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;33mW (147771) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (147781) BT_RFCOMM: port_rfc_closed RFCOMM connection in server:1 state 2 closed: Closed (res: 19)[0m
+    
+Event: 30
+Event: 27
+[0;32mI (147821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (147841) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(10 18)[0m
+[0;33mW (147841) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (147851) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (147861) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 18, status 0x0[0m
+[0;32mI (147861) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;33mW (147871) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (147871) BT_RFCOMM: rfc_find_lcid_mcb LCID reused LCID:0x43 current:0x0[0m
+[0;33mW (147881) BT_RFCOMM: RFCOMM_DisconnectInd LCID:0x43[0m
+[0;33mW (147891) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (147891) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (148321) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(10 18)[0m
+[0;32mI (148321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (148331) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 18, status 0x0[0m
+[0;32mI (148331) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;32mI (148821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (149321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (149821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (150321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (150821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (151321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (151821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (152321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (152821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (153321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (153821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (154321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (154821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (155321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (155821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (156321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (156821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (157321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (157821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (158321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (158821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (159321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (159821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (160321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (160821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (161321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (161821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (162321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (162821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (163321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (163821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (164321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (164821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (165321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (165821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (166321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (166821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (166911) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (166921) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (166931) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (167001) BT_APPL: new conn_srvc id:26, app_id:255[0m
+[0;33mW (167001) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(30 54)[0m
+Event: 34
+[0;33mW (167011) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 54, status 0x0[0m
+[0;32mI (167011) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;33mW (167081) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (167081) BT_RFCOMM: port_rfc_closed RFCOMM connection in server:1 state 2 closed: Closed (res: 19)[0m
+     
+Event: 30
+Event: 27
+[0;33mW (167141) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (167151) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (167161) BT_RFCOMM: rfc_find_lcid_mcb LCID reused LCID:0x43 current:0x0[0m
+[0;33mW (167171) BT_RFCOMM: RFCOMM_DisconnectInd LCID:0x43[0m
+[0;33mW (167321) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(10 18)[0m
+[0;32mI (167321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (167331) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 18, status 0x0[0m
+[0;32mI (167331) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;32mI (167821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (168321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (168821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (169321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (169821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (170321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (170821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (171321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (171821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (172321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (172821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (173321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (173821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (174321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (174821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (175321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (175821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (176321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (176821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (177321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (177821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (178321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (178761) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (178771) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (178771) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (178821) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(10 18)[0m
+[0;32mI (178821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (178841) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 18, status 0x0[0m
+[0;32mI (178841) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;33mW (178901) BT_APPL: new conn_srvc id:26, app_id:255[0m
+Event: 34
+[0;33mW (178951) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (178951) BT_RFCOMM: port_rfc_closed RFCOMM connection in server:1 state 2 closed: Closed (res: 19)[0m
+    
+Event: 30
+Event: 27
+[0;33mW (178971) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (178971) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (178991) BT_RFCOMM: rfc_find_lcid_mcb LCID reused LCID:0x43 current:0x0[0m
+[0;33mW (178991) BT_RFCOMM: RFCOMM_DisconnectInd LCID:0x43[0m
+[0;33mW (179321) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(10 18)[0m
+[0;32mI (179321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (179331) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 18, status 0x0[0m
+[0;32mI (179331) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;32mI (179821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (180321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (180821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (181321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (181821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (182321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (182821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (183321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (183821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (184321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (184821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (185321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (185821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (186321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (186821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (187321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (187821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (188321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (188821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (189321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (189821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (190321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (190821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (191321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (191821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (191951) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (191961) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (191971) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (192041) BT_APPL: new conn_srvc id:26, app_id:255[0m
+[0;33mW (192041) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(30 54)[0m
+Event: 34
+[0;33mW (192051) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 54, status 0x0[0m
+[0;32mI (192051) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;33mW (192121) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (192131) BT_RFCOMM: port_rfc_closed RFCOMM connection in server:1 state 2 closed: Closed (res: 19)[0m
+     
+Event: 30
+Event: 27
+[0;33mW (192181) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (192191) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (192211) BT_RFCOMM: rfc_find_lcid_mcb LCID reused LCID:0x43 current:0x0[0m
+[0;33mW (192211) BT_RFCOMM: RFCOMM_DisconnectInd LCID:0x43[0m
+[0;33mW (192321) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(10 18)[0m
+[0;32mI (192321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (192331) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 18, status 0x0[0m
+[0;32mI (192331) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;32mI (192821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (193321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (193821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (194321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (194821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (195321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (195821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (196321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (196821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (197321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (197821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (198321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (198821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (199321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (199821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (200321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (200821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (201321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (201821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (202321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (202821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (203321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (203821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (204321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (204821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (205321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (205821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (206321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (206821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (207321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (207821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (208321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (208821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (209321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (209821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (210321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (210821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (211321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (211821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (212321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (212821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (213321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (213821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (214321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (214821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (215321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (215821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (216321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (216821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (217321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (217821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (218321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (218821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (219321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (219821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (220321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (220821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (221321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (221821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (222321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (222821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (223321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (223821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (224321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (224821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (225321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (225821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (226321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (226821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (227321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (227821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (228321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (228821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (229321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (229821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (230321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (230821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (231321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (231821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (232321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (232821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (233321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (233821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (234321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (234821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (235321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (235821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (236321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (236821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (237321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (237821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (238321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (238821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (239321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (239821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (240321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (240821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (241321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (241821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (242321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (242821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (243321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (243821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (244321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (245821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (246321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (246821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (247321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (247821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (248321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (248821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (249321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (249821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (250321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (250821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (251321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (251821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (252321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (252821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (253321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (253821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (254321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (254821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (255321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (255821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (256321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (256821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (257321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (257821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (258321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (258821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (259321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (259821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (260321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (260821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (261321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (261821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (262321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (262821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (263321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (263821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (264321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (264821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (265321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (265821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (266321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (266821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (267321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (267821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (268321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (268821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (269321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (269821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (270321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (270821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (271321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (271821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (272321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (272821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (273321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (273821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (274321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (274821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (275321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (275821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (276321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (276821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (277321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (277821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (278321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (278821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (279321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (279821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (280321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (280821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (281321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (281821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (282321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (282821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (283321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (283821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (284321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (284821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (285321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (285821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (286321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (286821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (287321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (287821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (288321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (288821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (289321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (289821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (290321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (290821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (291321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (291821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (292321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (292821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (293321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (293821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (294321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (294821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (295321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (295821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (296321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (296821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (297321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (297821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (298321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (298821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (299321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (299821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (300321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (300821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (301321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (301821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (302321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (302821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (303321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (303821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (304321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (304821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (305321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (305821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (306321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (306821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (307321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (307821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (308321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (308821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (309321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (309821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (310321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (310821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (311321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (311821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (312321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (312821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (313321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (313821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (314321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (314821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (315321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (315821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (316321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (316821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (317321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (317821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (318321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (318821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (319321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (319821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (320321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (320821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (321321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (321821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (322321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (322821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (323321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (323821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (324321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (324821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (325321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (325821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (326321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (326821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (327321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (327821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (328321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (328821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (329321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (329821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (330321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (330821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (331321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (331821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (332321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (332821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (333321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (333821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (334321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (334821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (335321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (335821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (336321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (336821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (337321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (337821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (338321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (338821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (339321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (339821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (340321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (340821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (341321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (341821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (342321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (342821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (343321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (343821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (344321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (344821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (345321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (346821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (347321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (347821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (348321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (348821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (349321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (349821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (350321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (350821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (351321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (351821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (352321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (352821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (353321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (353821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (354321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (354821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (355321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (355821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (356321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (356821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (357321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (357821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (358321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (358821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (359321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (359821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (360321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (360821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (361321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (361821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (362321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (362821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (363321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (363821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (364321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (364821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (365321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (365821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (366321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (366821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (367321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (367821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (368321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (368821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (369321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (369821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (370321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (370821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (371321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (371821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (372321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (372821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (373321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (373821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (374321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (374821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (375321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (375821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (376321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (376821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (377321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (377821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (378321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (378821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (379321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (379821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (380321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (380821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (381321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (381821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (382321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (382821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (383321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (383821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (384321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (384821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (385321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (385821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (386321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (386821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (387321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (387821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (388321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (388821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (389321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (389821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (390321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (390821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (391321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (391821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (392321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (392821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (393321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (393821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (394321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (394821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (395321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (395821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (396321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (396821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (397321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (397821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (398321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (398821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (399321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (399821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (400321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (400821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (401321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (401821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (402321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (402821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (403321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (403821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (404321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (404821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (405321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (405821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (406321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (406821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (407321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (407821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (408321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (408821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (409321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (409821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (410321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (410821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (411321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (411821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (412321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (412821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (413321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (413821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (414321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (414821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (415321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (415821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (416321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (416821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (417321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (417821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (418321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (418821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (419321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (419821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (420321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (420821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (421321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (421821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (422321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (422821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (423321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (423821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (424321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (424821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (425321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (425821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (426321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (426821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (427321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (427821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (428321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (428821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (429321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (429821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (430321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (430821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (431321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (431821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (432321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (432821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (433321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (433821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (434321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (434821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (435321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (435821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (436321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (436821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (437321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (437821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (438321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (438821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (439321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (439821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (440321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (440821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (441321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (441821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (442321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (442821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (443321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (443821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (444321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (444821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (445321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (445821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (446321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (447821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (448321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (448821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (449321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (449821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (450321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (450821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (451321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (451821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (452321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (452821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (453321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (453821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (454321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (454821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (455321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (455821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (456321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (456821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (457321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (457821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (458321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (458821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (459321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (459821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (460321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (460821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (461321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (461821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (462321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (462821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (463321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (463821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (464321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (464821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (465321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (465821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (466321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (466821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (467321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (467821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (468321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (468821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (469321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (469821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (470321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (470821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (471321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (471821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (472321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (472821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (473321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (473821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (474321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (474821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (475321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (475821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (476321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (476821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (477321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (477821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (478321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (478821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (479321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (479821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (480321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (480821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (481321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (481821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (482321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (482821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (483321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (483821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (484321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (484821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (485321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (485821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (486321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (486821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (487321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (487821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (488321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (488821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (489321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (489821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (490321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (490821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (491321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (491821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (492321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (492821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (493321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (493821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (494321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (494821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (495321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (495821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (496321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (496821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (497321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (497821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (498321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (498821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (499321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (499821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (500321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (500821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (501321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (501821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (502321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (502821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (503321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (503821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (504321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (504821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (505321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (505821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (506321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (506821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (507321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (507821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (508321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (508821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (509321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (509821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (510321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (510821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (511321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (511821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (512321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (512821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (513321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (513821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (514321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (514821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (515321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (515821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (516321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (516821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (517321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (517821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (518321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (518821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (519321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (519821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (520321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (520821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (521321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (521821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (522321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (522821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (523321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (523821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (524321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (524821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (525321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (525821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (526321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (526821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (527321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (527821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (528321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (528821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (529321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (529821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (530321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (530821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (531321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (531821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (532321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (532821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (533321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (533821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (534321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (534821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (535321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (535821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (536321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (536821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (537321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (537821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (538321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (538821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (539321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (539821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (540321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (540821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (541321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (541821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (542321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (542821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (543321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (543821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (544321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (544821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (545321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (545821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (546321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (546821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (547321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (548821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (549321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (549821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (550321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (550821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (551321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (551821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (552321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (552821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (553321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (553821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (554321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (554821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (555321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (555821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (556321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (556821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (557321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (557821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (558321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (558821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (559321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (559821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (560321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (560821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (561321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (561821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (562321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (562821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (563321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (563821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (564321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (564821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (565321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (565821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (566321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (566821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (567321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (567821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (568321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (568821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (569321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (569821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (570321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (570821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (571321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (571821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (572321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (572821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (573321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (573821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (574321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (574821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (575321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (575821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (576321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (576821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (577321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (577821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (578321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (578821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (579321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (579821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (580321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (580821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (581321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (581821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (582321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (582821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (583321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (583821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (584321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (584821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (585321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (585821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (586321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (586821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (587321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (587821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (588321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (588821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (589321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (589821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (590321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (590821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (591321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (591821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (592321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (592821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (593321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (593821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (594321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (594821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (595321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (595821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (596321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (596821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (597321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (597821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (598321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (598821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (599321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (599821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (600321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (600821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (601321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (601821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (602321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (602821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (603321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (603821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (604321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (604821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (605321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (605821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (606321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (606821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (607321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (607821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (608321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (608821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (609321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (609821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (610321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (610821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (611321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (611821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (612321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (612821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (613321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (613821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (614321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (614821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (615321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (615821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (616321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (616821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (617321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (617821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (618321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (618821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (619321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (619821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (620321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (620821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (621321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (621821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (622321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (622821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (623321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (623821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (624321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (624821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (625321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (625821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (626321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (626821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (627321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (627821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (628321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (628821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (629321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (629821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (630321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (630821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (631321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (631821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (632321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (632821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (633321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (633821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (634321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (634821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (635321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (635821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (636321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (636821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (637321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (637821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (638321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (638821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (639321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (639821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (640321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (640821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (641321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (641821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (642321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (642821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (643321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (643821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (644321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (644821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (645321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (645821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (646321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (646821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (647321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (647821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (648321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (649821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (650321) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (650821) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (650971) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (650991) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (650991) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (651011) BT_HCI: hci cmd send: disconnect: hdl 0x80, rsn:0x13[0m
+[0;32mI (651011) esp_bt_hidd_cb: ESP_HIDD_CLOSE_EVT[0m
+[0;32mI (651011) esp_bt_hidd_cb: disconnected![0m
+[0;32mI (651021) esp_bt_hidd_cb: making self discoverable and connectable again.[0m
+[0;32mI (651031) esp_bt_hidd_cb: ESP_HIDD_VC_UNPLUG_EVT[0m
+[0;32mI (651031) esp_bt_hidd_cb: disconnected![0m
+[0;32mI (651041) esp_bt_hidd_cb: making self discoverable and connectable again.[0m
+[0;33mW (651051) BT_HCI: hcif disc complete: hdl 0x80, rsn 0x16[0m
+[0;32mI (651051) esp_bt_gap_cb: event: 17[0m
+[0;32mI (651071) esp_bt_gap_cb: event: 14[0m
+[0;32mI (13) boot: ESP-IDF v5.3-dirty 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Sep 29 2024 06:51:02[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (17) boot: chip revision: v3.1[0m
+[0;32mI (21) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (30) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (40) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (51) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (66) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (73) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=2ad44h (175428) map[0m
+[0;32mI (146) esp_image: segment 1: paddr=0003ad6c vaddr=3ffbdb60 size=04b90h ( 19344) load[0m
+[0;32mI (153) esp_image: segment 2: paddr=0003f904 vaddr=40080000 size=00714h (  1812) load[0m
+[0;32mI (154) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=9a8ech (633068) map[0m
+[0;32mI (377) esp_image: segment 4: paddr=000da914 vaddr=40080714 size=16ec8h ( 93896) load[0m
+[0;32mI (426) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (426) boot: Disabling RNG early entropy source...[0m
+[0;32mI (438) cpu_start: Multicore app[0m
+[0;32mI (447) cpu_start: Pro cpu start user code[0m
+[0;32mI (447) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (447) app_init: Application information:[0m
+[0;32mI (450) app_init: Project name:     bt_hid_mouse_device[0m
+[0;32mI (455) app_init: App version:      v5.4-dev-3201-g46acfdce96-dirty[0m
+[0;32mI (462) app_init: Compile time:     Sep 29 2024 07:36:43[0m
+[0;32mI (468) app_init: ELF file SHA256:  05ea84ed7...[0m
+[0;32mI (474) app_init: ESP-IDF:          v5.3-dirty[0m
+[0;32mI (479) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (484) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (489) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (494) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (501) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (507) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (513) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (519) heap_init: At 3FFCA6F0 len 00015910 (86 KiB): DRAM[0m
+[0;32mI (525) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (531) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (538) heap_init: At 400975DC len 00008A24 (34 KiB): IRAM[0m
+[0;32mI (546) spi_flash: detected chip: generic[0m
+[0;32mI (549) spi_flash: flash io: dio[0m
+[0;33mW (553) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (567) coexist: coex firmware version: dab85ae96[0m
+[0;32mI (572) main_task: Started on CPU0[0m
+[0;32mI (582) main_task: Calling app_main()[0m
+[0;32mI (602) gpio: GPIO[12]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (602) gpio: GPIO[13]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (612) gpio: GPIO[14]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (622) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (632) gpio: GPIO[16]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (642) BTDM_INIT: BT controller compile version [f021fb7][0m
+[0;32mI (652) BTDM_INIT: Bluetooth MAC: a0:dd:6c:77:c6:92[0m
+[0;32mI (652) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+[0;33mW (732) phy_init: saving new calibration data because of checksum failure, mode(0)[0m
+[0;32mI (1322) app_main: setting device name[0m
+[0;32mI (1332) esp_bt_gap_cb: event: 10[0m
+[0;32mI (1332) app_main: setting cod major, peripheral[0m
+[0;32mI (3332) app_main: register hid device callback[0m
+[0;32mI (3332) app_main: starting hid device[0m
+[0;32mI (3332) esp_bt_hidd_cb: setting hid parameters[0m
+[0;32mI (3332) esp_bt_gap_cb: event: 10[0m
+[0;32mI (3342) esp_bt_hidd_cb: setting hid parameters success![0m
+[0;32mI (3342) esp_bt_hidd_cb: setting to connectable, discoverable[0m
+Event: 0
+Event: 28
+[0;32mI (3362) app_main: Own address:[a0:dd:6c:77:c6:92][0m
+[0;32mI (3362) app_main: exiting[0m
+[0;32mI (3362) main_task: Returned from app_main()[0m
+[0;33mW (15872) BT_HCI: hcif conn complete: hdl 0x80, st 0x0[0m
+[0;32mI (15872) esp_bt_gap_cb: event: 16[0m
+[0;32mI (16442) esp_bt_gap_cb: authentication success: DESKTOP-3T2FKOG[0m
+[0;32mI (16442) esp_bt_gap_cb: 14 85 7f 27 dc a0 [0m
+[0;32mI (16462) esp_bt_gap_cb: event: 21[0m
+[0;33mW (16662) BT_HIDD: hidd_l2cif_config_cfm: config failed, retry[0m
+[0;33mW (16682) BT_APPL: new conn_srvc id:20, app_id:1[0m
+[0;32mI (16682) esp_bt_hidd_cb: connected to 14:85:7f:27:dc:a0[0m
+[0;32mI (16682) mouse_move_task: starting[0m
+[0;32mI (16682) esp_bt_hidd_cb: making self non-discoverable and non-connectable.[0m
+[0;33mW (16692) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(10 18)[0m
+[0;32mI (16702) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (16702) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 18, status 0x0[0m
+[0;32mI (16712) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;32mI (17182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (17682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (18182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (18682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (19182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (19682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (20182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (20682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (21182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (21682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (22182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (22682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (23182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (23682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (24182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (24682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (25182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (25682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (26182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (26682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (27182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (27682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (28182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (28682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (29182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (29682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (30182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (30682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (31182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (31682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (32182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (32682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (33182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (33682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (34182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (34682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (35182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (35682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (36182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (36682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (37182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (37682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (38182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (38682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (39182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (39682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (40182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (40682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (41182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (41682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (42182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (42682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (43182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (43682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (44182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (44682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (45182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (45682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (46182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (46682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (47182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (47682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (48182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (48682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (49182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (49682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (50182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (50682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (51182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (51682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (52182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (52682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (53182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (53682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (54182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (54682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (55182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (55682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (56182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (56682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (57182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (57682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (58182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (58682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (59182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (59682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (60182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (60682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (61182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (61682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (62182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (62682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (63182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (63682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (64182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (64682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (65182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (65682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (66182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (66682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (67182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (67682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (68182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (68682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (69182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (69682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (70182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (70682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (71182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (71682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (72182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (72682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (73182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (73682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (74182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (74682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (75182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (75682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (76182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (76682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (77182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (77682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (78182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (78682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (79182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (79682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (80182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (80682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (81182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (81682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (82182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (82682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (83182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (83682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (84182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (84682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (85182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (85682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (86182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (86682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (87182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (87682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (88182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (88682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (89182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (89682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (90182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (90682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (91182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (91332) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (91352) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (91352) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (91422) BT_APPL: new conn_srvc id:26, app_id:255[0m
+[0;33mW (91422) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(30 54)[0m
+Event: 34
+[0;33mW (91432) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 54, status 0x0[0m
+[0;32mI (91442) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;33mW (91482) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (91492) BT_RFCOMM: port_rfc_closed RFCOMM connection in server:1 state 2 closed: Closed (res: 19)[0m
+    
+Event: 30
+Event: 27
+[0;33mW (91542) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (91552) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (91562) BT_RFCOMM: rfc_find_lcid_mcb LCID reused LCID:0x42 current:0x0[0m
+[0;33mW (91562) BT_RFCOMM: RFCOMM_DisconnectInd LCID:0x42[0m
+[0;33mW (91682) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(10 18)[0m
+[0;32mI (91682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (91692) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 18, status 0x0[0m
+[0;32mI (91692) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;32mI (92182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (92682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (93182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (93682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (94182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (94682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (95182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (95682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (96182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (96682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (97182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (97682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (98182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (98682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (99182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (99682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (100182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (100682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (101182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (101682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (102182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (102682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (103182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (103682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (104182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (104682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (105182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (105682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (106182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (106682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (107182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (107682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (108182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (108682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (109182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (109682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (110182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (110682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (111182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (111682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (112182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (112682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (113182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (113682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (114182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (114682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (115182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (115682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (116182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (117682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (118182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (118682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (119182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (119682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (120182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (120682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (121182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (121212) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (121232) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (121232) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (121282) BT_APPL: new conn_srvc id:26, app_id:255[0m
+[0;33mW (121282) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(30 54)[0m
+Event: 34
+[0;33mW (121292) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 54, status 0x0[0m
+[0;32mI (121292) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;33mW (121352) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (121362) BT_RFCOMM: port_rfc_closed RFCOMM connection in server:1 state 2 closed: Closed (res: 19)[0m
+     
+Event: 30
+Event: 27
+[0;33mW (121422) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(30 54)[0m
+[0;33mW (121422) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (121422) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (121432) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 54, status 0x0[0m
+[0;32mI (121442) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;33mW (121482) BT_HCI: hci cmd send: unsniff: hdl 0x80[0m
+[0;33mW (121482) BT_RFCOMM: rfc_find_lcid_mcb LCID reused LCID:0x43 current:0x0[0m
+[0;33mW (121492) BT_RFCOMM: RFCOMM_DisconnectInd LCID:0x43[0m
+[0;33mW (121552) BT_HCI: hcif mode change: hdl 0x80, mode 0, intv 0, status 0x0[0m
+[0;32mI (121552) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:0[0m
+[0;33mW (121682) BT_HCI: hci cmd send: sniff: hdl 0x80, intv(10 18)[0m
+[0;32mI (121682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;33mW (121692) BT_HCI: hcif mode change: hdl 0x80, mode 2, intv 18, status 0x0[0m
+[0;32mI (121692) esp_bt_gap_cb: ESP_BT_GAP_MODE_CHG_EVT mode:2[0m
+[0;32mI (122182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (122682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (123182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (123682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (124182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (124682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (125182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (125682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (126182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (126682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (127182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (127682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (128182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (128682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (129182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (129682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (130182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (130682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (131182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (131682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (132182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (132682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (133182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (133682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (134182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (134682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (135182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (135682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (136182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (136682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (137182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (137682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (138182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (138682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (139182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (139682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (140182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (140682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (141182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (141682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (142182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (142682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (143182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (143682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (144182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (144682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (145182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (145682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (146182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (146682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (147182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (147682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (148182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (148682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (149182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (149682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (150182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (150682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (151182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (151682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (152182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (152682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (153182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (153682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (154182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (154682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (155182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (155682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (156182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (156682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (157182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (157682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (158182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (158682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (159182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (159682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (160182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (160682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (161182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (161682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (162182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (162682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (163182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (163682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (164182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (164682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (165182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (165682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (166182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (166682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (167182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (167682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (168182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (168682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (169182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (169682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (170182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (170682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (171182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (171682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (172182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (172682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (173182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (173682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (174182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (174682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (175182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (175682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (176182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (176682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (177182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (177682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (178182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (178682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (179182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (179682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (180182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (180682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (181182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (181682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (182182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (182682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (183182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (183682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (184182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (184682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (185182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (185682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (186182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (186682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (187182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (187682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (188182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (188682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (189182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (189682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (190182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (190682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (191182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (191682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (192182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (192682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (193182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (193682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (194182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (194682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (195182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (195682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (196182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (196682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (197182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (197682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (198182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (198682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (199182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (199682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (200182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (200682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (201182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (201682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (202182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (202682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (203182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (203682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (204182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (204682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (205182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (205682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (206182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (206682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (207182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (207682) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+[0;32mI (208182) esp_bt_hidd_cb: ESP_HIDD_SEND_REPORT_EVT id:0x00, type:1[0m
+: flash io:������ 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (602) gpio: GPIO[13]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (612) gpio: GPIO[14]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (622) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (632) gpio: GPIO[16]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (642) BTDM_INIT: BT controller compile version [f021fb7][0m
+[0;32mI (652) BTDM_INIT: Bluetooth MAC: a0:dd:6c:77:c6:92[0m
+[0;32mI (652) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+[0;32mI (1322) app_main: setting device name[0m
+[0;32mI (1322) esp_bt_gap_cb: event: 10[0m
+[0;32mI (1322) app_main: setting cod major, peripheral[0m
+[0;32mI (3332) app_main: register hid device callback[0m
+[0;32mI (3332) app_main: starting hid device[0m
+[0;32mI (3332) esp_bt_hidd_cb: setting hid parameters[0m
+[0;32mI (3332) esp_bt_gap_cb: event: 10[0m
+[0;32mI (3342) esp_bt_hidd_cb: setting hid parameters success![0m
+[0;32mI (3342) esp_bt_hidd_cb: setting to connectable, discoverable[0m
+Event: 0
+Event: 28
+[0;32mI (3362) app_main: Own address:[a0:dd:6c:77:c6:92][0m
+[0;32mI (3362) app_main: exiting[0m
+[0;32mI (3362) main_task: Returned from app_main()[0m

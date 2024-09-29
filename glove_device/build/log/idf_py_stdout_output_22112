@@ -1,0 +1,5 @@
+esptool.py v4.8.dev5
+Serial port COM9
+Connecting...
+
+A fatal error occurred: This chip is ESP32-C3 not ESP32. Wrong --chip argument?
