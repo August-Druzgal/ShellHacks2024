@@ -51,7 +51,7 @@ public class HandPoseTracker : MonoBehaviour
     bool inPose = false;
 
     //In case we want a difficulty toggle requiring more precise or less precise signs
-    float toleranceMultiplier = 1f;
+    float toleranceMultiplier = 1.2f;
 
     //Displayed hand pose
     HandPose displayPose;
@@ -123,36 +123,56 @@ public class HandPoseTracker : MonoBehaviour
     /// </summary>
     public void GetHandPose()
     {
-        //Get pose of current hand
+        HandPose wantedHandPose = null;
+
+        if (SpawnLetterImages.charQueue.Count >= 0)
+        {
+            wantedHandPose = handPoseList.Find(x => x.GetDisplayName() == SpawnLetterImages.charQueue.Peek().ToString());
+        }
+
+        // Log the wanted hand pose once
+
+        // Get pose of current hand
         foreach (HandPose pose in handPoseList)
         {
-            //Check if HandPose matches current hand
+            // Check if HandPose matches current hand
             if (pose.CheckHandMatch(handCurrent, toleranceMultiplier))
             {
-                //OnEnter
+                // OnEnter
                 if (!pose.GetInPose())
                 {
                     OnPoseEnter?.Invoke(pose);
-                    //pose.OnPoseEnter?.Invoke(pose);
-                    inPose = true; //Hand tracker has logged a pose, general
-                    pose.SetInPose(true); //This pose is the one that is logged
+                    inPose = true; // Hand tracker has logged a pose, general
+                    pose.SetInPose(true); // This pose is the one that is logged
 
                     currentPose = pose;
                 }
 
-                //OnStay
+                // OnStay
                 OnPoseStay?.Invoke(pose);
-                //pose.OnPoseStay?.Invoke(pose);
             }
-            else if (pose.GetInPose()) //OnExit
+            else if (pose.GetInPose()) // OnExit
             {
                 OnPoseExit?.Invoke(pose);
-                //pose.OnPoseExit?.Invoke(pose);
                 inPose = false;
                 pose.SetInPose(false);
 
                 currentPose = null;
             }
+        }
+
+        if (SpawnLetterImages.charQueue.Count >= 0)
+        {
+            Dictionary<string, float> dic = wantedHandPose.GetFingerTipIntensities(handCurrent, toleranceMultiplier);
+
+            // Log the current hand pose once
+            //handCurrent.GetJointPose(HandJointId.HandIndexTip, out Pose indexTipPose);
+            //handCurrent.GetJointPose(HandJointId.HandMiddleTip, out Pose middleTipPose);
+            //handCurrent.GetJointPose(HandJointId.HandRingTip, out Pose ringTipPose);
+            //handCurrent.GetJointPose(HandJointId.HandPinkyTip, out Pose pinkyTipPose);
+            //handCurrent.GetJointPose(HandJointId.HandThumbTip, out Pose thumbTipPose);
+
+            //Debug.Log("Index: " + dic["Index"] + " Middle: " + dic["Middle"] + " Ring: " + dic["Ring"] + " Pinky: " + dic["Pinky"] + " Thumb: " + dic["Thumb"]);
         }
     }
 

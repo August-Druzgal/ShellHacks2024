@@ -40,7 +40,7 @@ public class SpawnLetterImages : MonoBehaviour
 
     private Dictionary<char, Texture2D> letterTextures = new Dictionary<char, Texture2D>();
 
-    private Queue<char> charQueue = new Queue<char>();
+    public static Queue<char> charQueue = new Queue<char>();
 
     private Queue<RawImage> imageQueue = new Queue<RawImage>();
 
@@ -173,9 +173,15 @@ public class SpawnLetterImages : MonoBehaviour
 
     private IEnumerator FadeToGreenAndDestroy(RawImage image)
     {
+        if (SpawnLetterImages.used)
+        {
+            yield break;
+        }
+
+        SpawnLetterImages.used = true;
         float duration = 1.0f; // Duration in seconds
         float elapsedTime = 0.0f;
-        Color initialColor = image.color;
+        Color initialColor = Color.white;
         Color targetColor = Color.green;
 
         while (elapsedTime < duration)
@@ -187,10 +193,16 @@ public class SpawnLetterImages : MonoBehaviour
 
         image.color = targetColor; // Ensure the final color is set to green
         Destroy(image.gameObject);
+        SpawnLetterImages.used = false;
     }
 
     private IEnumerator FadeToRed(RawImage image)
     {
+        if (SpawnLetterImages.used)
+        {
+            yield break;
+        }
+        
         SpawnLetterImages.used = true;
         float duration = 1.0f; // Duration in seconds
         float elapsedTime = 0.0f;
