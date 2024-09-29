@@ -11,6 +11,8 @@ public class TcpClientUnity : MonoBehaviour
     public string TCP_HOST = "127.0.0.1"; // Server IP address
     public int TCP_PORT = 16;             // Server port number
 
+    public FrontendDebugger frontendDebugger; // Makes frames
+
     private TcpClient client;
     private NetworkStream stream;
     private Thread clientThread;
@@ -90,8 +92,13 @@ public class TcpClientUnity : MonoBehaviour
                     // Save the label for later use
                     string primaryLabel = primaryObject.label;
 
+
                     // Update the bounding box in the viewport
-                    UpdateBoundingBox(primaryObject, imageWidth, imageHeight);                }
+                    GameObject boundBox = UpdateBoundingBox(primaryObject, imageWidth, imageHeight);    
+                    
+                    // Make the frame with ASL letters
+                    frontendDebugger.spawnFrame(primaryLabel, boundBox);
+                }
                 else
                 {
                     // Hide the bounding box if no primary object
@@ -181,7 +188,7 @@ public class TcpClientUnity : MonoBehaviour
             clientThread.Abort();
     }
 
-    void UpdateBoundingBox(DetectedObject primaryObject, float imageWidth, float imageHeight)
+    GameObject UpdateBoundingBox(DetectedObject primaryObject, float imageWidth, float imageHeight)
     {
         // Convert object center coordinates to viewport space (0 to 1)
         float viewportX_center = primaryObject.x / imageWidth;
@@ -240,6 +247,7 @@ public class TcpClientUnity : MonoBehaviour
 
         // Show the bounding box and label
         boundingBoxObject.SetActive(true);
+        return boundingBoxObject;
         //labelObject.gameObject.SetActive(true);
     }
 }

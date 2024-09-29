@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028301, g: 0.22571309, b: 0.30692127, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1497,6 +1497,7 @@ GameObject:
   - component: {fileID: 881593283}
   - component: {fileID: 881593286}
   - component: {fileID: 881593285}
+  - component: {fileID: 881593287}
   m_Layer: 0
   m_Name: FollowME
   m_TagString: Untagged
@@ -1581,7 +1582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bce277be2b503044b5ecccdd493c388, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnLetterImages: {fileID: 881593286}
+  frameDebug: {fileID: 881593287}
 --- !u!114 &881593286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1594,7 +1595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcedde509ced3c48b4fdcfe0df81dbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagePrefab: {fileID: 7921033796249593947, guid: 7474b905325dd5e42b9cdf6c224ae80f, type: 3}
+  imagePrefab: {fileID: 6781914520382547431, guid: 6774b6c5eba6c2d4a813b610aee1a5b5, type: 3}
   parentTransform: {fileID: 501965029}
   padding: 3
   A: {fileID: 2800000, guid: b1480853a84409649bc037b4456d477b, type: 3}
@@ -1623,6 +1624,21 @@ MonoBehaviour:
   X: {fileID: 2800000, guid: a05fc1be8c2d67f48af4ced9efbc36c8, type: 3}
   Y: {fileID: 2800000, guid: 265b9e9316b75a24db466f4c0339bedc, type: 3}
   Z: {fileID: 2800000, guid: d26e73b1569c8d44eb9dda22e497f3ef, type: 3}
+--- !u!114 &881593287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881593281}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa39ab95c93b8e44c8b23fa284fe33a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnLetterImages: {fileID: 881593286}
+  boxPrefab: {fileID: 8587362924894748713, guid: 66277db529e5cff41a347b11454ab4ed, type: 3}
+  offset: 0.0002
 --- !u!4 &889137270 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4154509707602826, guid: e201a24a09e942042b93390d0444d728, type: 3}
@@ -2195,6 +2211,11 @@ Transform:
 --- !u!4 &1783988946 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 482130, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+  m_PrefabInstance: {fileID: 1783988942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1783988947 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
   m_PrefabInstance: {fileID: 1783988942}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1783988950 stripped
@@ -3023,10 +3044,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2132427669}
-  - component: {fileID: 2132427668}
   - component: {fileID: 2132427670}
   - component: {fileID: 2132427671}
   - component: {fileID: 2132427672}
+  - component: {fileID: 2132427673}
   m_Layer: 0
   m_Name: test script
   m_TagString: Untagged
@@ -3034,21 +3055,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2132427668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2132427667}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b9cd0bd5e8f66e4d9b4cd708d669f5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tcpIP: 2.tcp.ngrok.io
-  tcpPort: 17124
-  sendInterval: 1
 --- !u!4 &2132427669
 Transform:
   m_ObjectHideFlags: 0
@@ -3108,6 +3114,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TCP_HOST: localhost
   TCP_PORT: 16
+  mainCamera: {fileID: 1783988947}
+--- !u!114 &2132427673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132427667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa39ab95c93b8e44c8b23fa284fe33a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnLetterImages: {fileID: 881593286}
+  boxPrefab: {fileID: 8587362924894748713, guid: 66277db529e5cff41a347b11454ab4ed, type: 3}
+  offset: 0.7
 --- !u!1001 &7585291731239725634
 PrefabInstance:
   m_ObjectHideFlags: 0

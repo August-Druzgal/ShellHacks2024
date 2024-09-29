@@ -9,7 +9,20 @@ import logging
 import json
 import mss
 import time
-from Quartz import CGWindowListCopyWindowInfo, kCGWindowListOptionOnScreenOnly, kCGNullWindowID
+import pygetwindow as gw
+import pyautogui
+
+def get_chrome_window_bounds():
+    # Retrieve Google Chrome window
+    chrome_window = gw.getWindowsWithTitle('Google Chrome')[0]  # Adjust the title if necessary
+    if chrome_window:
+        return {
+            'left': chrome_window.left,
+            'top': chrome_window.top,
+            'width': chrome_window.width,
+            'height': chrome_window.height
+        }
+    return None
 
 warnings.filterwarnings("ignore", category=FutureWarning)
 logging.basicConfig(filename='server.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -22,7 +35,7 @@ TCP_HOST = '0.0.0.0'
 TCP_PORT = 16
 
 # Global interval variable (in seconds)
-SEND_INTERVAL = 1.0  # Adjust this value as needed
+SEND_INTERVAL = 1  # Adjust this value as needed
 
 # Global variables to store detected objects and frame dimensions
 detected_objects = []
@@ -35,22 +48,6 @@ tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 tcp_server_socket.bind((TCP_HOST, TCP_PORT))
 tcp_server_socket.listen(5)
 print(f"TCP Server listening on {TCP_HOST}:{TCP_PORT}")
-
-def get_chrome_window_bounds():
-    # Retrieve all on-screen windows
-    window_list = CGWindowListCopyWindowInfo(kCGWindowListOptionOnScreenOnly, kCGNullWindowID)
-    # Iterate through windows to find Google Chrome
-    for window in window_list:
-        # The window owner name could be 'Google Chrome'
-        owner_name = window.get('kCGWindowOwnerName', '')
-        if owner_name == 'Google Chrome':
-            bounds = window.get('kCGWindowBounds', {})
-            x = int(bounds.get('X', 0))
-            y = int(bounds.get('Y', 0))
-            width = int(bounds.get('Width', 0))
-            height = int(bounds.get('Height', 0))
-            return {'left': x, 'top': y, 'width': width, 'height': height}
-    return None
 
 def handle_tcp_client(client_socket):
     try:

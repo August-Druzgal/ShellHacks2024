@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class ImageController : MonoBehaviour
 {
-    public SpawnLetterImages spawnLetterImages;
+    public FrontendDebugger frameDebug;
 
     public void Start()
     {
-        spawnLetterImages.spawnImages("BABA");
+        //frameDebug.spawnFrame("BAIBAI");
     }
 }

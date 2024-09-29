@@ -51,7 +51,7 @@ public class HandPoseTracker : MonoBehaviour
     bool inPose = false;
 
     //In case we want a difficulty toggle requiring more precise or less precise signs
-    float toleranceMultiplier = 1.2f;
+    float toleranceMultiplier = 1.35f;
 
     //Displayed hand pose
     HandPose displayPose;
@@ -125,7 +125,7 @@ public class HandPoseTracker : MonoBehaviour
     {
         HandPose wantedHandPose = null;
 
-        if (SpawnLetterImages.charQueue.Count >= 0)
+        if (SpawnLetterImages.charQueue.Count > 0)
         {
             wantedHandPose = handPoseList.Find(x => x.GetDisplayName() == SpawnLetterImages.charQueue.Peek().ToString());
         }
@@ -161,7 +161,7 @@ public class HandPoseTracker : MonoBehaviour
             }
         }
 
-        if (SpawnLetterImages.charQueue.Count >= 0)
+        if (wantedHandPose != null)
         {
             Dictionary<string, float> dic = wantedHandPose.GetFingerTipIntensities(handCurrent, toleranceMultiplier);
 

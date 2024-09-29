@@ -10,7 +10,7 @@ public class SpawnLetterImages : MonoBehaviour
     public Transform parentTransform; // Parent transform to hold the images
     public float padding = 10f; // Padding between images
 
-    // Public RawImage fields for each letter
+    // Public GameObject fields for each letter
     public Texture2D A;
     public Texture2D B;
     public Texture2D C;
@@ -42,7 +42,7 @@ public class SpawnLetterImages : MonoBehaviour
 
     public static Queue<char> charQueue = new Queue<char>();
 
-    private Queue<RawImage> imageQueue = new Queue<RawImage>();
+    private Queue<GameObject> imageQueue = new Queue<GameObject>();
 
     public static bool used = false;
 
@@ -77,7 +77,7 @@ public class SpawnLetterImages : MonoBehaviour
         letterTextures['Z'] = Z;
     }
 
-    public void spawnImages(string word)
+    public void spawnImages(string word, GameObject parent)
     {
         // Check if imagePrefab and parentTransform are assigned
         if (imagePrefab == null)
@@ -105,21 +105,27 @@ public class SpawnLetterImages : MonoBehaviour
         {
             charQueue.Enqueue(word[i]);
         }
-
+        float cwidth = 0.25f;
+        float coffset = (word.Length * cwidth + parent.transform.localScale.x) / 2 - cwidth;
         // Instantiate images for each letter
         foreach (char c in word.ToUpper())
         {
             if (letterTextures.ContainsKey(c))
             {
-                GameObject imageObject = Instantiate(imagePrefab, parentTransform);
-                RawImage rawImageComponent = imageObject.GetComponent<RawImage>();
-                rawImageComponent.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-                imageQueue.Enqueue(rawImageComponent);
+                GameObject targetPrefab = Resources.Load(c + " Variant") as GameObject;
+                GameObject imageObject = Instantiate(targetPrefab, parent.transform);
+                imageObject.transform.parent = parent.transform;
+                imageObject.transform.localScale = new Vector3(cwidth, cwidth, 0.15f);
+                imageObject.transform.localPosition = new Vector3(coffset, 0.62f, 0f);
+                coffset -= cwidth;
+                GameObject blankDiskComponent = imageObject;// Ask CJ what he wants here
+                //blankDiskComponent.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+                imageQueue.Enqueue(blankDiskComponent);
 
-                // Check if RawImage component is assigned
-                if (rawImageComponent == null)
+                // Check if GameObject component is assigned
+                if (blankDiskComponent == null)
                 {
-                    Debug.LogError("RawImage component is missing on the instantiated prefab.");
+                    Debug.LogError("GameObject component is missing on the instantiated prefab.");
                     Destroy(imageObject);
                     continue;
                 }
@@ -132,11 +138,11 @@ public class SpawnLetterImages : MonoBehaviour
                     continue;
                 }
 
-                rawImageComponent.texture = letterTextures[c];
+                // blankDiskComponent.texture = letterTextures[c];
                 imageObjects.Add(imageObject);
 
                 // Calculate total width
-                totalWidth += rawImageComponent.rectTransform.sizeDelta.x + padding;
+                totalWidth += cwidth + padding;
             }
             else
             {
@@ -144,16 +150,16 @@ public class SpawnLetterImages : MonoBehaviour
             }
         }
 
-        // Center the images
-        float startX = -totalWidth / 2 + padding / 2;
-        float currentX = startX;
+        // // Center the images
+        // float startX = -totalWidth / 2 + padding / 2;
+        // float currentX = startX;
 
-        foreach (GameObject imageObject in imageObjects)
-        {
-            RectTransform rectTransform = imageObject.GetComponent<RectTransform>();
-            rectTransform.anchoredPosition = new Vector2(currentX + rectTransform.sizeDelta.x / 2, 0);
-            currentX += rectTransform.sizeDelta.x + padding;
-        }
+        // foreach (GameObject imageObject in imageObjects)
+        // {
+        //     RectTransform rectTransform = imageObject.GetComponent<RectTransform>();
+        //     rectTransform.anchoredPosition = new Vector2(currentX + rectTransform.sizeDelta.x / 2, 0);
+        //     currentX += rectTransform.sizeDelta.x + padding;
+        // }
     }
 
     public bool removeLetter(char letter)
@@ -161,7 +167,7 @@ public class SpawnLetterImages : MonoBehaviour
         if (charQueue.Count > 0 && charQueue.Peek() == letter)
         {
             charQueue.Dequeue();
-            RawImage image = imageQueue.Dequeue();
+            GameObject image = imageQueue.Dequeue();
             StartCoroutine(FadeToGreenAndDestroy(image));
             return true;
         }
@@ -171,7 +177,7 @@ public class SpawnLetterImages : MonoBehaviour
     }
 
 
-    private IEnumerator FadeToGreenAndDestroy(RawImage image)
+    private IEnumerator FadeToGreenAndDestroy(GameObject image)
     {
         if (SpawnLetterImages.used)
         {
@@ -186,37 +192,37 @@ public class SpawnLetterImages : MonoBehaviour
 
         while (elapsedTime < duration)
         {
-            image.color = Color.Lerp(initialColor, targetColor, elapsedTime / duration);
+            // image.color = Color.Lerp(initialColor, targetColor, elapsedTime / duration);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
 
-        image.color = targetColor; // Ensure the final color is set to green
+        // image.color = targetColor; // Ensure the final color is set to green
         Destroy(image.gameObject);
         SpawnLetterImages.used = false;
     }
 
-    private IEnumerator FadeToRed(RawImage image)
+    private IEnumerator FadeToRed(GameObject image)
     {
         if (SpawnLetterImages.used)
         {
             yield break;
         }
-        
+
         SpawnLetterImages.used = true;
         float duration = 1.0f; // Duration in seconds
         float elapsedTime = 0.0f;
-        Color initialColor = image.color;
+        // Color initialColor = image.color;
         Color targetColor = Color.red;
 
         while (elapsedTime < duration)
         {
-            image.color = Color.Lerp(initialColor, targetColor, elapsedTime / duration);
+            // image.color = Color.Lerp(initialColor, targetColor, elapsedTime / duration);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
 
-        image.color = targetColor; // Ensure the final color is set back to the initial color
+        // image.color = targetColor; // Ensure the final color is set back to the initial color
         elapsedTime = 0.0f; // Reset the elapsed time
 
         while (elapsedTime < duration)
@@ -225,7 +231,7 @@ public class SpawnLetterImages : MonoBehaviour
             yield return null;
         }
 
-        image.color = Color.white; 
+        // image.color = Color.white;
         SpawnLetterImages.used = false;
     }
 }
