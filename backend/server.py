@@ -24,9 +24,11 @@ TCP_PORT = 16
 # Global interval variable (in seconds)
 SEND_INTERVAL = 1.0  # Adjust this value as needed
 
-# Global variable to store detected objects
+# Global variables to store detected objects and frame dimensions
 detected_objects = []
 detected_objects_lock = threading.Lock()
+detected_objects_frame_width = 0
+detected_objects_frame_height = 0
 
 # TCP Server initialization
 tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -53,12 +55,19 @@ def get_chrome_window_bounds():
 def handle_tcp_client(client_socket):
     try:
         while True:
-            # Get the latest detected_objects
+            # Get the latest detected_objects and frame dimensions
             with detected_objects_lock:
                 current_objects = detected_objects.copy()
+                frameWidth = detected_objects_frame_width
+                frameHeight = detected_objects_frame_height
 
             # Send results back to the client as JSON
-            response = json.dumps({"objects": current_objects}).encode('utf-8')
+            response = json.dumps({
+                "objects": current_objects,
+                "frameWidth": frameWidth,
+                "frameHeight": frameHeight
+            }).encode('utf-8')
+
             response_length = struct.pack("!I", len(response))  # Use network byte order for consistency
             client_socket.sendall(response_length + response)
             logging.debug(f"Sent detection results of size {len(response)} bytes.")
@@ -79,7 +88,7 @@ def start_tcp_server():
         client_handler.start()
 
 def image_processing_loop():
-    global detected_objects
+    global detected_objects, detected_objects_frame_width, detected_objects_frame_height
     # Get the Google Chrome window coordinates
     bounds = get_chrome_window_bounds()
     if bounds is None:
@@ -109,6 +118,11 @@ def image_processing_loop():
             objects = []
             labels, coords = results.xyxyn[0][:, -1], results.xyxyn[0][:, :-1]
             h, w, _ = frame.shape
+
+            # Store frame dimensions
+            with detected_objects_lock:
+                detected_objects_frame_width = w
+                detected_objects_frame_height = h
 
             for label, coord in zip(labels, coords):
                 x_min, y_min, x_max, y_max, confidence = coord
