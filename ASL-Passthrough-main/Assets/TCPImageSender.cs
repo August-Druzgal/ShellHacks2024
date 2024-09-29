@@ -5,7 +5,6 @@ using System.IO;
 using System.Text;
 using System.Collections.Generic;
 using System;
-using TMPro;
 
 public class TCPClientTest : MonoBehaviour
 {
@@ -18,52 +17,69 @@ public class TCPClientTest : MonoBehaviour
     private Thread receiveThread;
     private bool isConnected = false;
 
-    private RenderTexture renderTexture;
-    private Texture2D passthroughTexture;
-    private Camera passthroughCamera;
+    private WebCamTexture webCamTexture;
+    private GameObject quad;
 
     private float lastSendTime = 0f;
     public float sendInterval = 1f; // Adjust as needed
 
     void Start()
     {
-        // Initialize the RenderTexture and Texture2D
-        renderTexture = new RenderTexture(1280, 720, 16, RenderTextureFormat.ARGB32);
-        passthroughTexture = new Texture2D(renderTexture.width, renderTexture.height, TextureFormat.RGB24, false);
-
-        // Set up the Passthrough Camera
-        SetupPassthroughCamera();
+        // Set up the WebCamTexture
+        SetupWebCamTexture();
 
         // Connect to the server
         ConnectToServer();
     }
 
-    void SetupPassthroughCamera()
+    void SetupWebCamTexture()
     {
-        // Create a new Camera for capturing the passthrough
-        GameObject cameraGO = new GameObject("PassthroughCaptureCamera");
-        passthroughCamera = cameraGO.AddComponent<Camera>();
-        passthroughCamera.clearFlags = CameraClearFlags.SolidColor;
-        passthroughCamera.backgroundColor = Color.clear;
-        passthroughCamera.cullingMask = 0; // Don't render any objects
-        passthroughCamera.targetTexture = renderTexture;
-        passthroughCamera.stereoTargetEye = StereoTargetEyeMask.None; // Monoscopic rendering
+        WebCamDevice[] devices = WebCamTexture.devices;
 
-        // Parent the camera to the main camera to match the headset's movement
-        passthroughCamera.transform.SetParent(Camera.main.transform, false);
-
-        // Ensure the OVR Passthrough Layer is set up
-        OVRPassthroughLayer passthroughLayer = Camera.main.gameObject.GetComponent<OVRPassthroughLayer>();
-        if (passthroughLayer == null)
+        // Log available cameras
+        Debug.Log("Available cameras:");
+        for (int i = 0; i < devices.Length; i++)
         {
-            passthroughLayer = Camera.main.gameObject.AddComponent<OVRPassthroughLayer>();
+            Debug.Log($"Camera {i}: {devices[i].name}, Front Facing: {devices[i].isFrontFacing}");
         }
 
-        // Set the passthrough layer to render behind other layers
-        passthroughLayer.compositionDepth = -1; // Negative value to render behind other layers
+        int cameraIdx = -1;
+        for (int i = 0; i < devices.Length; i++)
+        {
+            if (!devices[i].isFrontFacing)
+            {
+                cameraIdx = i;
+                break;
+            }
+        }
 
-        // Ensure the passthrough layer is visible
-        passthroughLayer.hidden = false;
+        // Fallback to front-facing camera if no non-front-facing camera is found
+        if (cameraIdx == -1 && devices.Length > 0)
+        {
+            cameraIdx = 0;
+            Debug.LogWarning("No non-front-facing camera found. Falling back to front-facing camera.");
+        }
+
+        if (cameraIdx != -1)
+        {
+            webCamTexture = new WebCamTexture(devices[cameraIdx].name);
+            webCamTexture.Play();
+
+            // Create a quad to display the camera feed
+            quad = GameObject.CreatePrimitive(PrimitiveType.Quad);
+            quad.transform.SetParent(Camera.main.transform, false);
+            quad.transform.localPosition = new Vector3(0, 0, 2); // Adjust as needed
+            quad.transform.localRotation = Quaternion.identity;
+            quad.transform.localScale = new Vector3(1.6f, 0.9f, 1); // Adjust as needed
+
+            Renderer quadRenderer = quad.GetComponent<Renderer>();
+            quadRenderer.material = new Material(Shader.Find("Unlit/Texture"));
+            quadRenderer.material.mainTexture = webCamTexture;
+        }
+        else
+        {
+            Debug.LogError("No suitable camera found.");
+        }
     }
 
     void ConnectToServer()
@@ -91,31 +107,29 @@ public class TCPClientTest : MonoBehaviour
     {
         if (isConnected && Time.time - lastSendTime >= sendInterval)
         {
-            // Capture the passthrough image
-            CapturePassthroughFrame();
+            // Capture the webcam image
+            CaptureWebCamFrame();
 
             lastSendTime = Time.time;
         }
     }
 
-    void CapturePassthroughFrame()
+    void CaptureWebCamFrame()
     {
-        // Render the camera's view
-        passthroughCamera.Render();
+        if (webCamTexture != null && webCamTexture.isPlaying)
+        {
+            Texture2D frameTexture = new Texture2D(webCamTexture.width, webCamTexture.height);
+            frameTexture.SetPixels(webCamTexture.GetPixels());
+            frameTexture.Apply();
 
-        // Read the RenderTexture contents into the Texture2D
-        RenderTexture.active = renderTexture;
-        passthroughTexture.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
-        passthroughTexture.Apply();
-        RenderTexture.active = null;
+            // Convert to byte array
+            byte[] imageBytes = frameTexture.EncodeToJPG();
 
-        // Convert to byte array
-        byte[] imageBytes = passthroughTexture.EncodeToJPG();
+            Debug.Log("Image size: " + imageBytes.Length);
 
-        Debug.Log("Image size: " + imageBytes.Length);
-
-        // Send image over TCP
-        SendMessage(imageBytes);
+            // Send image over TCP
+            SendMessage(imageBytes);
+        }
     }
 
     void SendMessage(byte[] message)

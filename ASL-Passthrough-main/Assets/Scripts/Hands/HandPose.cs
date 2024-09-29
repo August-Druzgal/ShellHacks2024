@@ -26,30 +26,30 @@ public class HandPose : MonoBehaviour
 
     [Header("Pose Joints")]
 
-    [SerializeField] Transform handWristRoot;
-    [SerializeField] Transform handForearmStub;
-    [SerializeField] Transform handThumb0;
-    [SerializeField] Transform handThumb1;
-    [SerializeField] Transform handThumb2;
-    [SerializeField] Transform handThumb3;
-    [SerializeField] Transform handIndex1;
-    [SerializeField] Transform handIndex2;
-    [SerializeField] Transform handIndex3;
-    [SerializeField] Transform handMiddle1;
-    [SerializeField] Transform handMiddle2;
-    [SerializeField] Transform handMiddle3;
-    [SerializeField] Transform handRing1;
-    [SerializeField] Transform handRing2;
-    [SerializeField] Transform handRing3;
-    [SerializeField] Transform handPinky0;
-    [SerializeField] Transform handPinky1;
-    [SerializeField] Transform handPinky2;
-    [SerializeField] Transform handPinky3;
-    [SerializeField] Transform handThumbTip;
-    [SerializeField] Transform handIndexTip;
-    [SerializeField] Transform handMiddleTip;
-    [SerializeField] Transform handRingTip;
-    [SerializeField] Transform handPinkyTip;
+    [SerializeField] public Transform handWristRoot;
+    [SerializeField] public Transform handForearmStub;
+    [SerializeField] public Transform handThumb0;
+    [SerializeField] public Transform handThumb1;
+    [SerializeField] public Transform handThumb2;
+    [SerializeField] public Transform handThumb3;
+    [SerializeField] public Transform handIndex1;
+    [SerializeField] public Transform handIndex2;
+    [SerializeField] public Transform handIndex3;
+    [SerializeField] public Transform handMiddle1;
+    [SerializeField] public Transform handMiddle2;
+    [SerializeField] public Transform handMiddle3;
+    [SerializeField] public Transform handRing1;
+    [SerializeField] public Transform handRing2;
+    [SerializeField] public Transform handRing3;
+    [SerializeField] public Transform handPinky0;
+    [SerializeField] public Transform handPinky1;
+    [SerializeField] public Transform handPinky2;
+    [SerializeField] public Transform handPinky3;
+    [SerializeField] public Transform handThumbTip;
+    [SerializeField] public Transform handIndexTip;
+    [SerializeField] public Transform handMiddleTip;
+    [SerializeField] public Transform handRingTip;
+    [SerializeField] public Transform handPinkyTip;
 
     [Header("Pose Properties")]
 
@@ -164,6 +164,64 @@ public class HandPose : MonoBehaviour
         }
 
         return true;
+    }
+
+    public Dictionary<string, float> GetFingerTipIntensities(IHand hand, float toleranceMultiplier)
+    {
+        // Define the joint IDs for the tips of the fingers
+        HandJointId[] fingerTipJoints = new HandJointId[]
+        {
+            HandJointId.HandIndex3,
+            HandJointId.HandMiddle3,
+            HandJointId.HandRing3,
+            HandJointId.HandPinky2,
+            HandJointId.HandThumb1
+        };
+
+        // Define the names for the fingers
+        string[] fingerNames = new string[]
+        {
+            "Index",
+            "Middle",
+            "Ring",
+            "Pinky",
+            "Thumb"
+        };
+
+        Dictionary<string, float> fingerTipIntensities = new Dictionary<string, float>();
+
+        for (int i = 0; i < fingerTipJoints.Length; i++)
+        {
+            HandJointId jointId = fingerTipJoints[i];
+            string fingerName = fingerNames[i];
+
+            if ((int)jointId < 0 || (int)jointId >= _jointTransforms.Count)
+            {
+                Debug.LogError($"Joint ID {jointId} is out of range. Index: {(int)jointId}, Length: {_jointTransforms.Count}");
+                continue;
+            }
+
+            // Get the local pose of the joint
+            hand.GetJointPoseLocal(jointId, out Pose localPose);
+
+            // Calculate the distance difference
+            float distance = Vector3.Distance(localPose.position, _jointTransforms[(int)jointId].transform.localPosition);
+
+            // Calculate the angle difference
+            float angleDifference = Quaternion.Angle(localPose.rotation, _jointTransforms[(int)jointId].transform.localRotation);
+
+            // Normalize the distance and angle difference to a range of 0 to 1
+            float normalizedDistance = Mathf.Clamp01(distance / (toleranceRadius * toleranceMultiplier));
+            float normalizedAngleDifference = Mathf.Clamp01(angleDifference / (toleranceAngle * toleranceMultiplier));
+
+            // Combine the normalized values to get an overall intensity for this finger
+            float intensity = (normalizedDistance + normalizedAngleDifference) / 2f;
+
+            // Store the intensity in the dictionary
+            fingerTipIntensities[fingerName] = intensity;
+        }
+
+        return fingerTipIntensities;
     }
 
 #if UNITY_EDITOR
